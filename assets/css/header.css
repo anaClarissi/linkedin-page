@@ -1,0 +1,74 @@
+header{
+    display: flex;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--fundo-card);
+}
+
+#logo-linkedin {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+    margin-left: 150px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container img {
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#input-pesquisar {
+    width: 280px;
+    height: 34px;
+    padding-left: 35px;
+    margin-right: 100px;
+    height: 35px;
+    background-color: var(--input);
+    border: none;
+    border-radius: 5px;
+    color: var(--texto-primario);
+    font-size: 0.87em;
+}
+
+#input-pesquisar::placeholder {
+    color: var(--texto-primario);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#nav-bar {
+    display: flex;
+    margin-right: 200px;
+}
+
+#nav-list {
+    display: flex;
+    list-style: none;
+    border-right: 1px solid var(--texto-secundario);
+}
+
+.nav-item {
+    width: 80px;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    color: var(--texto-primario);
+    text-decoration: none;
+    font-size: 0.75em;
+}
+
+.nav-item-icone {
+    width: 24px;
+    height: 24px;
+}

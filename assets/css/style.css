@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --fundo-card: #1b2226;
     --transparent: transparent;
@@ -6,10 +8,14 @@
     --texto-secundario: #e8e9e9;
     --texto-escuro: #373737;
     --input: #38434f;
+
+    --font-primaria: 'Roboto',Helvetica, Arial, sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-primaria);
 }
+
