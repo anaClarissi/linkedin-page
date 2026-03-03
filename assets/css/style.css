@@ -1,0 +1,15 @@
+:root {
+    --fundo-card: #1b2226;
+    --transparent: transparent;
+    --primario: #70b5f9;
+    --texto-primario: #ffffff;
+    --texto-secundario: #e8e9e9;
+    --texto-escuro: #373737;
+    --input: #38434f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
