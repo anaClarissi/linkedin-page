@@ -1,0 +1,128 @@
+#informacoes-perfil {
+    position: relative;
+    width: 780px;
+    height: 468px;
+}
+
+#capa-img {
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+#perfil-img {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    z-index: 2;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 4px solid var(--fundo-card);
+}
+
+#informacoes-pessoais {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    padding: 50px 25px 0 25px;
+    border-radius: 0 0 20px 20px;
+    color: var(--texto-primario);
+}
+
+.informacoes {
+    margin-top: 4px;
+}
+
+.nome {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.tecnologias {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.sobre, .local-contato {
+    font-size: 0.87em;
+    font-weight: 400;
+    color: var(--texto-secundario);
+}
+
+.local-contato, .conexoes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contato {
+    font-weight: 700;
+    color: var(--primario);
+}
+
+.conexoes {
+    font-weight: 500;
+    color: var(--primario);
+}
+
+.perfil-acoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+.button-acoes {
+    width: 128px;
+    height: 32px;
+    border: 1px solid var(--primario);
+    border-radius: 16px;
+    font-size: 0.9em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.mensagem {
+    background-color: var(--primario);
+    color: var(--fundo-card);
+}
+
+.mais {
+    background-color: var(--fundo-card);
+    color: var(--primario);
+}
+
+.detalhes-carreira {
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.detalhes-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.detalhes-img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.eclipse {
+    width: 3px;
+    height: 3px;
+    background-color: var(--texto-secundario);
+    border-radius: 50%;
+}

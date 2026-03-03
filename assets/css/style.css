@@ -2,10 +2,11 @@
 
 :root {
     --fundo-card: #1b2226;
+    --fundo-pagina: #000000;
     --transparent: transparent;
     --primario: #70b5f9;
     --texto-primario: #ffffff;
-    --texto-secundario: #e8e9e9;
+    --texto-secundario: #a4a7a8;
     --texto-escuro: #373737;
     --input: #38434f;
 

@@ -45,6 +45,7 @@ header{
 
 #nav-bar {
     display: flex;
+    height: 100%;
     margin-right: 200px;
 }
 
