@@ -77,16 +77,6 @@
     padding-top: 5px;
 }
 
-.button-acoes {
-    width: 128px;
-    height: 32px;
-    border: 1px solid var(--primario);
-    border-radius: 16px;
-    font-size: 0.9em;
-    font-weight: 500;
-    cursor: pointer;
-}
-
 .mensagem {
     background-color: var(--primario);
     color: var(--fundo-card);
@@ -118,11 +108,4 @@
     height: 32px;
     object-fit: cover;
     object-position: center;
-}
-
-.eclipse {
-    width: 3px;
-    height: 3px;
-    background-color: var(--texto-secundario);
-    border-radius: 50%;
 }

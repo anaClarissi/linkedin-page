@@ -9,6 +9,9 @@
     --texto-secundario: #a4a7a8;
     --texto-escuro: #373737;
     --input: #38434f;
+    --vermelho: #DF704D;
+    --verde: #6DAE4F;
+    --azul: #378FE9;
 
     --font-primaria: 'Roboto',Helvetica, Arial, sans-serif;
 }
@@ -20,3 +23,64 @@
     font-family: var(--font-primaria);
 }
 
+.button-acoes {
+    width: 128px;
+    height: 32px;
+    border: 1px solid var(--primario);
+    border-radius: 16px;
+    font-size: 0.9em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.eclipse {
+    width: 3px;
+    height: 3px;
+    background-color: var(--texto-secundario);
+    border-radius: 50%;
+}
+
+.engajamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--texto-secundario);
+    font-size: 0.75em;
+    font-weight: 400;
+    padding-right: 5px;
+}
+
+.reacao {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin: 3px 0 0 5px;
+}
+
+.bola {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.vermelho {
+    background-color: var(--vermelho);
+    left: 16px;
+}
+
+.verde {
+    background-color: var(--verde);
+    left: 8px;
+}
+
+.azul {
+    background-color: var(--azul);
+    left: 0;
+}
+
+.numero-reacao {
+    position: absolute;
+    left: 35px;
+}
