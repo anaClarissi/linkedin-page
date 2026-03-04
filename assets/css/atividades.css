@@ -1,0 +1,46 @@
+#atividades {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    height: 371px;
+    padding: 20px;
+    color: var(--texto-secundario);
+    font-size: 0.87em;
+}
+
+.atividade-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.atividade-informacao {
+    font-weight: 400;
+}
+
+.atividade-post {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-weight: 400;
+    color: var(--texto-primario);
+    line-height: 20px;
+    margin: 5px 0;
+}
+
+.atividade-post figure {
+    display: flex;
+    gap: 10px;
+}
+
+#atividade-1 {
+    border-bottom: 1px solid white;
+}
+
+
+.exibir-mais-msg {
+    width: 100%;
+    text-align: center;
+}

@@ -84,3 +84,9 @@
     position: absolute;
     left: 35px;
 }
+
+.seguidores {
+    font-size: 0.87em;
+    font-weight: 500;
+    color: var(--primario);
+}
