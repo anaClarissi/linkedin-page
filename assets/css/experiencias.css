@@ -1,0 +1,90 @@
+#experiencias {
+    padding: 20px;
+    color: var(--texto-primario);
+}
+
+#experiencias h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.empresa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.empresa-infor {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.empresa-infor h3 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.empresa-infor p {
+    font-size: 0.87em;
+    font-weight: 400;
+    color: var(--texto-secundario);
+}
+
+.empresa img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.empresa-itens {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.empresa-itens .separador-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.empresa-itens .separador-itens .eclipse {
+    width: 9px;
+    height: 9px;
+    background-color: var(--texto-primario);
+}
+
+.empresa-itens .separador-itens .barra-vertical {
+    height: 54px;
+    border-right: 1px solid var(--texto-secundario);
+}
+
+.empresa-itens .informacao-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.area-empresa {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--texto-primario);
+}
+
+.turno-empresa {
+    font-size: 0.87em;
+    font-weight: 400;
+    color: var(--texto-primario);
+}
+
+.tempo-empresa, .local-empresa {
+    font-size: 0.87em;
+    font-weight: 400;
+    color: var(--texto-secundario);
+}
