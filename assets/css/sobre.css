@@ -1,0 +1,18 @@
+#sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    color: var(--texto-primario);
+}
+
+#sobre h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+#sobre p {
+    font-size: 0.87em;
+    font-weight: 400;
+    line-height: 1.25em;
+}
