@@ -1,0 +1,37 @@
+#idiomas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    color: var(--texto-primario);
+}
+
+#idiomas h2 {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: var(--texto-primario);
+}
+
+.idiomas-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--texto-secundario);
+}
+
+.idiomas-card:last-child{
+    border: 1px solid transparent;
+}
+
+.nome-idioma {
+    font-size: 1em;
+    font-weight: normal;
+    color: var(--texto-primario);
+}
+
+.nivel-idioma {
+    font-size: 0.87em;
+    font-weight: normal;
+    color: var(--texto-secundario);
+}
